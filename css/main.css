@@ -10,19 +10,33 @@ body {
     font-weight: 500;
 }
 
-.header {
-}
 .container {
+    max-width: 1750px;
+    padding: 0 15px;
+}
+/* Button */
+.btn {
+}
+
+/* Header */
+.header {
+    min-height: 100vh;
+    border-color: #E5EFF4;
 }
 .header__top {
+    padding: 44px 0;
 }
 .nav {
 }
 .nav__logo {
+    padding: 56px 0;
 }
 .nav__list {
 }
 .link {
 }
-.btn {
-}
+
+
+
+
+
