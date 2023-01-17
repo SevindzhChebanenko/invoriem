@@ -21,7 +21,10 @@ body {
 /* Header */
 .header {
     min-height: 100vh;
-    border-color: #E5EFF4;
+    border-color: #EBF4F6;
+    background-image: url("./../img/header/header-bg.jpg");
+    background-size: cover;
+    background-position: center center;
 }
 .header__top {
     padding: 44px 0;
