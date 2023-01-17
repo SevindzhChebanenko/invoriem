@@ -1,0 +1,28 @@
+@import "./reset.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+/* font-family: 'Work Sans', sans-serif; */
+
+
+body {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 500;
+}
+
+.header {
+}
+.container {
+}
+.header__top {
+}
+.nav {
+}
+.nav__logo {
+}
+.nav__list {
+}
+.link {
+}
+.btn {
+}
