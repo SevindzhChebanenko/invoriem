@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Invoriem</title>
     <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
 
-    <header class="header none">
+    <header class="header">
         <div class="container">
             <div class="header__top">
                 <nav class="nav">
@@ -38,13 +45,14 @@
     </header>
 
     <main>
-        <section class="section-studies none">
+        <section class="section-studies">
             <div class="container">
                 <div class="section__title">
                     <h2 class="title">Case Studies</h2>
                 </div>
                 <div class="section__text">
-                    <p>We deliver a unique and truly bespoke approach to delivering international developments to market, with over 10 years success around the world.</p>
+                    <p>We deliver a unique and truly bespoke approach to delivering international developments to
+                        market, with over 10 years success around the world.</p>
                 </div>
             </div>
 
@@ -71,7 +79,6 @@
         </section>
         <section class="section-video">
             <div class="container">
-
                 <div class="section__title">
                     <h2 class="title">We are Invoriem</h2>
                 </div>
@@ -84,7 +91,7 @@
                             <img src="./img/icons/play-btn.svg" alt="Play">
                         </button>
                         <img class="video__picture" src="./img/video-picture.jpg" alt="video">
-                        <video class="video__object">
+                        <video class="video__object" id="video-file" loop>
                             <source src="./img/video.mp4" type="video/mp4">
                         </video>
                     </div>
@@ -92,8 +99,29 @@
             </div>
         </section>
     </main>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__row">
+                <div class="footer__copyright">Copyright © 2020 Invoriem</div>
+                <div class="footer__nav">
+                    <div class="footer__email"><a href="mailto:info@invoriem.com">info@invoriem.com</a></div>
+                    <div class="footer__socials">
+                        <a class="socials-icon" href="!#"><img src="./img/socials/instagram.svg" alt="instagram"></a>
+                        <a class="socials-icon" href="!#"><img src="./img/socials/facebook.svg" alt="facebook"></a>
+                        <a class="socials-icon" href="!#"><img src="./img/socials/twitter.svg" alt="twitter"></a>
+                        <a class="socials-icon" href="!#"><img src="./img/socials/linkedIn.svg" alt="linkedIn"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+        integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./js/main.js"></script>
 </body>
+
 </html>
